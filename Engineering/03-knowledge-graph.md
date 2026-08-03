@@ -1,8 +1,8 @@
 Heading: "Knowledge Graph Design"
-Purpose: Maps and connects entities and concepts, enabling rich relationships.
+Purpose: The knowledge graph maps core entities and their relationships in WIP Studio to enable complex queries.
 Key Components:
-Nodes: Represent entities (e.g., User, Project, Task).
-Edges: Define relationships (e.g., User owns Project, Project has Tasks).
-Attributes: Each node and edge has metadata, like timestamps or types.
-Evolution: Describe how new nodes and edges are added over time (e.g., through user actions or data imports).
-Queries: Mention that the graph supports querying relationships (e.g., find all tasks for a user)
+Nodes: Represent real-world entities. We define three types: User, Project, and Task.
+Edges: Represent relationships. For example, a User "owns" a Project, and a Project "has" Tasks.
+Attributes: Each node and edge has attributes—like timestamps or metadata.
+Evolution: The graph evolves as users create projects and tasks, adding nodes and edges dynamically.
+Querying: The graph supports querying—such as "Find all tasks owned by a user"—using a graph query language.
